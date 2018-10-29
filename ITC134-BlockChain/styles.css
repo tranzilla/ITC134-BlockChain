@@ -1,0 +1,37 @@
+/*RESETS*/
+body, body *{ 
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 960px;
+
+}
+
+a img {
+    border: none;
+}
+/*END RESETS*/
+
+
+
+/*NAV STYLES*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
